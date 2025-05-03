@@ -9,34 +9,33 @@ It creates a "sandbox" where you can install specific versions of libraries with
 ![python-envs.png](images/python-envs.png)
 
 ### 1. Setup pyenv virtualenv
-
 ```shell
 brew install pyenv
 brew install pyenv-virtualenv
 ```
-
+### 2. Add the following to .zshrc
 ```shell
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
-### 2. Create python virtual env
+### 3. Create python virtual env
 ```shell
 pyenv virtualenv 3.12.3 <myproject>
 ```
 
-### 3. Auto activate virtualenv
+### 4. Auto activate virtualenv
 ```shell
 echo "<myproject>" > .python-version
 ```
 
-### 4. verify if env is active
+### 5. verify if env is active
 ```shell
 echo $VIRTUAL_ENV
 ```
 
-### 5 Intellij Setup 
+### 6. Intellij Setup 
 
 ```shell
 ~/.pyenv/versions/<myproject>/bin/python
