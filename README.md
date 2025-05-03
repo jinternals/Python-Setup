@@ -8,11 +8,19 @@ It creates a "sandbox" where you can install specific versions of libraries with
 
 ![python-envs.png](images/python-envs.png)
 
-### 1. Setup pyenv virtualenv
+### 1. Setup pyenv virtualenv and install python
 ```shell
 brew install pyenv
 brew install pyenv-virtualenv
 ```
+
+```shell
+pyenv install 3.13.3
+pyenv install 3.12.3
+pyenv versions
+pyenv global 3.13.3
+```
+
 ### 2. Add the following to .zshrc
 ```shell
 export PATH="$HOME/.pyenv/bin:$PATH"
