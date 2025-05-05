@@ -7,8 +7,9 @@ This allows you to manage the specific versions of Python packages required for 
 separately, preventing conflicts with your global Python installation or other projects. 
 It's like giving each project its own isolated set of tools.
 
-![python-envs.png](images/python-envs.png)
-
+<p align="center">
+    <img src="/images/python-envs.png" />
+</p>
 ## 1. Install pyenv & pyenv-virtualenv
 These tools manage different Python versions and the virtual environments associated with them.
 
@@ -99,7 +100,9 @@ To let your IDE know about the virtual environment:
 5. Click OK.
 6. Go to File -> Project Structure -> Project -> SDK and select the SDK you just added.
 
-![setup-python.png](images/setup-python.png)
+<p align="center">
+    <img src="/images/setup-python.png" />
+</p>
 
 ## NOTE: Why use pyenv virtualenv instead of python -m venv?
 - Centralized Management: Keeps Python versions and their associated virtual environments organized together within the ~/.pyenv directory.
