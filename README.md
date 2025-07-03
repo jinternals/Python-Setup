@@ -62,7 +62,8 @@ Then, create a virtual environment linked to a specific installed Python version
 # Replace 3.12.3 if you want to base it on a different installed Python version
 pyenv virtualenv 3.12.3 <your_env_name>
 ```
-### 5. List All Virtual Environment
+
+## 5. List All Virtual Environment
 
 ```shell
 pyenv virtualenvs
