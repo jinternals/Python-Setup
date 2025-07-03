@@ -62,6 +62,25 @@ Then, create a virtual environment linked to a specific installed Python version
 # Replace 3.12.3 if you want to base it on a different installed Python version
 pyenv virtualenv 3.12.3 <your_env_name>
 ```
+### 5. List All Virtual Environment
+
+```shell
+pyenv virtualenvs
+```
+output
+```shell
+  3.13.5/envs/demo (created from /Users/mradulpandey/.pyenv/versions/3.13.5)
+  3.13.5/envs/learning (created from /Users/mradulpandey/.pyenv/versions/3.13.5)
+  demo (created from /Users/mradulpandey/.pyenv/versions/3.13.5)
+  learning (created from /Users/mradulpandey/.pyenv/versions/3.13.5)
+```
+### 5. Remove Specific Virtual Environment
+
+```shell
+pyenv uninstall demo
+
+pyenv uninstall learning
+```
 
 ## 5.  Enable Auto-Activation for Your Project
 To make pyenv automatically activate this virtual environment whenever you cd into your project directory, create a .python-version file in the root directory of your project.
