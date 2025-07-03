@@ -74,7 +74,7 @@ output
   demo (created from /Users/mradulpandey/.pyenv/versions/3.13.5)
   learning (created from /Users/mradulpandey/.pyenv/versions/3.13.5)
 ```
-### 5. Remove Specific Virtual Environment
+## 6. Remove Specific Virtual Environment
 
 ```shell
 pyenv uninstall demo
@@ -82,7 +82,7 @@ pyenv uninstall demo
 pyenv uninstall learning
 ```
 
-## 5.  Enable Auto-Activation for Your Project
+## 7.  Enable Auto-Activation for Your Project
 To make pyenv automatically activate this virtual environment whenever you cd into your project directory, create a .python-version file in the root directory of your project.
 
 ```shell
